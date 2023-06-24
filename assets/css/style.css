@@ -1,26 +1,33 @@
-nav {
+header nav {
+    text-decoration-color: black;
     text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-body {
-    background-color: #00f9ff;
+nav a {
+    color: black;
 }
 header {
     width: 100%;
     height: auto;
   }
   header img {
+    opacity: 0.7;
     width: 100%;
     height: auto;
+    trans
   }
 header h1 {
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 header p {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -30,6 +37,10 @@ h1 {
     font: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+a:hover {
+	text-decoration: none;
+	color: #00f9ff;
 }
 #home p {
     color: black;
