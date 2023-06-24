@@ -13,11 +13,11 @@ header {
     width: 100%;
     height: auto;
   }
-  header img {
+header img {
     opacity: 0.7;
     width: 100%;
     height: auto;
-    trans
+    border: 2px solid black;
   }
 header h1 {
     position: absolute;
@@ -32,6 +32,7 @@ header p {
     transform: translate(-50%, -50%);
   }
 h1 {
+    font-size: 36px;
     color: black;
     font-style: italic;
     font: bold;
@@ -47,4 +48,18 @@ a:hover {
     text-align: center;
     font: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #00f9ff;
+}
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
+}
+h2 {
+    color: black;
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
