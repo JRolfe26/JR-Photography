@@ -59,46 +59,87 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-.flip-card {
-    background-color: aqua;
-    width: 450px;
-    height: 500px;
-    perspective: 1000px;
-    margin: auto;
-  }
-  
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    background-color: aqua;
-    color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  position: relative;
+  width: 50%;
 }
-  
-  .flip-card-back {
-    background-color: aqua;
-    color: aqua;
-    transform: rotateY(180deg);
-  }
 
-  
+.image {
+  opacity: 1;
+  display: block;
+  width: 400px;
+  height: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.left {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -25%);
+  -ms-transform: translate(-50%, -25%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: aqua;
+  color: white;
+  font-size: 24px;
+  padding: 16px 16px;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 400px;
+  height: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: aqua;
+  color: white;
+  font-size: 24px;
+  padding: 16px 16px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 3px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
