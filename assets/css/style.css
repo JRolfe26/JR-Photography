@@ -166,3 +166,23 @@ footer {
     object-fit: cover;
   }
 
+/* contact us page */
+.contact-h1 {
+    font-family: 'Cormorant Garamond', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 5rem;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-us-p {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    padding: 80px 100px;
+    background-color: #efefef;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+}
+
