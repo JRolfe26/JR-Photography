@@ -7,7 +7,7 @@
     <meta name="description" content="A photography service offering a range of packages for people based in Ireland">
     <meta name="keywords" content="photography, photographer, kerry, ireland, events, services">
     <link href="assets/css/style.css" rel="stylesheet">
-    <title>Love Light Photography</title>
+    <title>JR Photography</title>
 </head>
 
 <body>
@@ -43,6 +43,26 @@
             </p>
         </div>
     </section>
+    <section class="contact-methods">
+      <!-- Used the GET method linking to a thank you page to give a realistic simulation of what using the contact form would be like-->
+      <form method="get" action="thank-you.html" class="contact-form">
+          <h2>Contact Form</h2>
+
+          <label for="fname">First Name:</label>
+          <input class="text-input" id="fname" name="first_name" type="text" required>
+
+          <label for="lname">Last Name:</label>
+          <input class="text-input" id="lname" name="last_name" type="text" required>
+
+          <label for="email">Email Address:</label>
+          <input type="email" class="text-input" id="email" name="email_address" required>
+
+          <label for="your-message">Your Message:</label>
+          <textarea name="your-message" class="your-message" id="your-message" placeholder="Type your message here..."
+              rows="10" cols="40"></textarea>
+
+          <input class="lets-chat-button" type="submit" value="Let's Chat">
+      </form>
     <!-- Footer section-->
     <footer>
 			<ul id="footer-icons">
