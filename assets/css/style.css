@@ -186,3 +186,66 @@ footer {
     line-height: 1.5;
 }
 
+.contact-methods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.contact-form {
+    background-color: #efefef;
+    max-width: 100%;
+    padding: 25px;
+    outline: #fcfcfc solid 5px;
+    outline-offset: -20px;
+}
+
+.contact-form label {
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background-color: #fcfcfc;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #34454A;
+    border-radius: 2px;
+}
+
+.contact-form input[type="text"],
+::placeholder,
+.contact-form textarea {
+    padding: 5px 5px;
+}
+
+.your-message {
+    width: 100%;
+    height: 100%;
+    margin: 5px 0 20px;
+    background-color: #fcfcfc;
+    border: 1px solid #34454A;
+    border-radius: 2px;
+}
+
+.lets-chat-button {
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #fcfcfc;
+    border: 1px solid #34454A;
+    border-radius: 2px;
+}
+
+.lets-chat-button:hover {
+    background-color: #5e7f8a;
+    color: #fcfcfc;
+}
