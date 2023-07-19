@@ -38,7 +38,6 @@ p {
 #bio {
     color: black;
     text-align: justify;
-    text-size-adjust: 25px;
     padding-left: 2cm;
     padding-right: 2cm;
     padding-bottom: 1cm;
@@ -282,7 +281,6 @@ a:hover {
 .page-opening-text {
     color: black;
     text-align: justify;
-    text-size-adjust: 20px;
     padding-left: 1cm;
     padding-right: 1cm;
     padding-bottom: 1cm;
