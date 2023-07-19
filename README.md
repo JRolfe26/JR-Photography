@@ -1,7 +1,6 @@
-# Project-Test
-JR Photography is a site that advertises my own fictional photography business. The business primarily advertises and sells the service of me who in this alternate reality become a professional freelance Digital Media expert. The website shows off my own photos I took during my Digital Media course and uses them to advertise this fictional business. It is broken up into 3 different sections, Events, Comercial and Nature. The site also provides contact information to hire and book myself to take photos for your business or any events you are hosting.
+# **_JR Photography - Project Portfolio 1 - HTML & CSS_**
+JR Photography is a small profesional photography business that offers a wide range of photography services. This site targets the average individual who is looking to capture their event with high quality photography, in a professional but friendly and approachable manner, with a means to see samples of work done and contact to contact the business directly.
 
-# Sources
-(https://stackoverflow.com/questions/17015568/how-to-rotate-flip-element-with-css)
-(https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity)
-(https://rhiannonmcn.github.io/Love-Light-Photography/)
+You can view the live site here -
+
+![JR Photography responsive design](assets/images/various-device-layout.png)
