@@ -353,7 +353,7 @@ The website was deployed to GitHub pages via the following methods:
 * Code for CSS transform scale properties comes from [Learn with Param](https://learnwithparam.com/blog/scale-elements-on-hover-using-css/#:~:text=Often%20we%20get%20a%20requirement%20to%20scale%20images,%2F%2F%20shrinking%20in%20size.shrink%3Ahover%20%7B%20transform%3A%20scale%280.8%29%3B%20%7D)
 * Code for drawing a border inside a shape/image was from [CodeLab](https://www.tutorialrepublic.com/codelab.php?topic=faq&file=draw-border-inside-div-element-with-css)
 * Image optimisation was learned from [Layout, Flywheel](https://getflywheel.com/layout/optimize-images-for-web/#file-type)
-
+* I got my inspiration for my project from this former project [Love-Light-Photography](https://github.com/rhiannonmcn/Love-Light-Photography)
 [Back to top](<#contents>)
 
 # Acknowledgements
